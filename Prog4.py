@@ -13,7 +13,7 @@ class Student:
 	def check_qual(self):
 		if(self.val_marks() and self.val_age()):
 			return self.marks>=65
-		print("\nData NOT Valid.")s
+		print("\nData NOT Valid.")
 		return False
 	    
 	def set(self):
